@@ -1,7 +1,7 @@
 *{
 	background:seashell; /*floralwhite snow */
 	color:#47082C;
-    font-family: Garamond;
+    	font-family: Garamond, Tahoma, Courier;
 	
 }
 body{
@@ -100,7 +100,7 @@ a #title_img {
     background-color:lavender;
 	height:100%;
     text-decoration: none;
-	font-family: "Kunstler Script", cursive;
+	font-family: "Kunstler Script", "Brush Script MT", cursive;
 	color: #47082C;
     font-size: 2.5rem;
 	height:3rem;
@@ -367,13 +367,13 @@ p{
         border-bottom: 1px solid seashell;
 	}
     .menu_bar li a{
-        font-size: 2rem;
-        height:2.2rem;
+        font-size: 1.5rem;
+        height:2rem;
         font-weight: bold;
         letter-spacing: 2.5px;
      }
     .menu_bar li a:hover{
-        font-size:2rem;
+        font-size:1.5rem;
     }
     #footer_menu li {
         float: left;
@@ -385,7 +385,9 @@ p{
         margin-left: 40.98%;
         width:50%;
     }
-    
+    .introducere b{
+		font-size:1.5rem;
+	}
     .page_menu_blog .blog{
         position:relative;
         display:block;
