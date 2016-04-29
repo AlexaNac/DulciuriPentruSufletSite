@@ -1,7 +1,7 @@
 *{
 	background:seashell; /*floralwhite snow */
 	color:#47082C;
-    	font-family: Garamond, Courier;
+    	font-family: Garamond;
 	
 }
 body{
@@ -20,7 +20,6 @@ main{
 	width:72%;
 }
 /* HEADER FIXED
-
 header{
     position:fixed;
 	margin: 0 13.8% 0 13.8%;
@@ -74,7 +73,7 @@ a #title_img {
 .button a{
     background-color: lavender;
     text-decoration: none;
-    font-family: "Kunstler Script", cursive;
+    font-family: "Kunstler Script", "Brush Script MT", cursive;
     color: #47082C;
     font-size: 3rem;
 	font-weight:bold;
@@ -235,7 +234,7 @@ a #title_img {
 	color: #47082C;
 }
 #copyright small{
-	font-family: "Kunstler Script", cursive;
+	font-family: "Kunstler Script", "Brush Script MT", cursive;
 	color: #47082C;
 	font-size:1.5rem;
 	font-weight:bold;
