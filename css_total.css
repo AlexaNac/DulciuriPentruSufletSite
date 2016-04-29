@@ -381,7 +381,7 @@ p{
         border-bottom: 1px solid seashell;
         }
     
-    .menu_bar ul .dropdown:active .dropdown-content{
+    .menu_bar ul .dropdown:hover .dropdown-content{
         margin-left: 40.98%;
         width:50%;
     }
