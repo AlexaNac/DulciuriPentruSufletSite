@@ -441,7 +441,7 @@ p{
         width:33.1%;
         border-bottom: 1px solid seashell;
         }
-    .menu_bar ul .dropdown:hover .dropdown-content{
+    .menu_bar ul .dropdown:active .dropdown-content{
         width:41.4%;/* 49.8%; + 5.5% */
     }
     .recipe_title h2 span{
