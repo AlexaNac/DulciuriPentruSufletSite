@@ -1,0 +1,470 @@
+*{
+	background:seashell; /*floralwhite snow */
+	color:#47082C;
+    font-family: Garamond;
+	
+}
+body{
+    margin:0px;
+}
+html{
+	font-size:16px;
+}
+header{
+	margin:auto;
+	width:72%;
+}
+main{
+	position:relative;
+	margin:auto;
+	width:72%;
+}
+/* HEADER FIXED
+
+header{
+    position:fixed;
+	margin: 0 13.8% 0 13.8%;
+	width:72%;
+    z-index:1;
+}
+main{
+	position:relative;
+    padding-top:23%;
+	margin:auto;
+	width:72%;
+}
+*/
+footer{
+	position:relative;
+	margin:auto;
+	width:72%; 
+}
+
+/*POZA TITLU*/
+.title {
+	position:relative;
+	width:100%;
+	margin:auto
+}
+a #title_img {
+	position:relative;
+	width:100%;
+	margin:auto;
+}
+
+/*BUTON FIX TOP*/
+
+.button {
+    position:fixed;
+    /*margin-left:73%;
+    margin-top: 19%;*/
+    bottom: 0;
+    right: 0;
+    z-index:1; 
+    text-align: center;
+    text-decoration: none;
+    height: 3.5rem;
+    transition-duration: 0.4s;
+    background-color: lavender;
+}
+.button a:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color:lightsteelblue;
+}
+.button a{
+    background-color: lavender;
+    text-decoration: none;
+    font-family: "Kunstler Script", cursive;
+    color: #47082C;
+    font-size: 3rem;
+	font-weight:bold;
+	letter-spacing: 1px;
+}
+
+/* MENIU HEADER */
+.menu_bar ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	width:100%;
+}
+.menu_bar li {
+	width:24.89%;
+    float: left;
+	border-right: 1px solid seashell;
+	text-align: center;
+	list-style-type: none;
+}
+.menu_bar li a {
+    display: block;
+    background-color:lavender;
+	height:100%;
+    text-decoration: none;
+	font-family: "Kunstler Script", cursive;
+	color: #47082C;
+    font-size: 2.5rem;
+	height:3rem;
+	font-weight:bold;
+	letter-spacing: 1px;
+   
+}
+.menu_bar ul li a.active {
+    background-color:lightsteelblue;
+}
+.menu_bar li a:hover  {
+    background-color:lightsteelblue;
+	font-size:2.7rem;
+	overflow:visible;
+    
+}
+
+/* MENIU DROP DOWN HEADER*/
+
+.menu_bar ul .dropdown .dropdown-content {
+    display: none;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.menu_bar ul .dropdown:hover .dropdown-content {
+    display:block;
+	width:17.9%;/*24.89%;*/
+	z-index:1;
+}
+
+/*MENIU FOOTER*/
+
+#footer_menu{
+	list-style-type: none;
+    margin-top:5%;
+    padding:0;
+    overflow:hidden;
+	width:100%;
+}
+#footer_menu li {
+	width:16.5%;
+    float: left;
+	border-right: 1px solid seashell;
+}
+#footer_menu li a{
+	display: block;
+    background-color: lavender;
+    padding: 0.26rem 0.5rem 0.26rem 0.5rem;
+    text-decoration: none;
+	text-align: center;
+	color: #47082C;
+}
+#footer_menu li a:hover{
+	background-color:lightsteelblue;
+	color: #47082C;
+}
+
+/*MENIU PAGINA-RETETE*/
+
+.page_menu{
+	width:100%;
+	padding:0px;
+	margin:2% 0px 0px 4%;
+	list-style-type: none;
+	text-decoration: none;
+}
+.page_menu li{
+    padding:5px 0px 5px 15px;
+}
+.page_menu li:hover{
+    font-weight:bold;
+	text-decoration:underline;
+}
+
+/*MENIU BLOG*/
+
+.page_menu_blog{
+    padding:0px;
+}
+.page_menu_blog .blog{
+	position:relative;
+	margin:5px;
+	display:inline-block;
+    width: 47%;
+    list-style-type: none;
+	text-decoration: none;
+}
+.article_photo {
+	height:auto;
+	width:100%;
+}
+.article_photo:hover{
+     transform: translate(2px, 1px);
+    /*-ms-transform: translate(2px, );   IE 9 */
+    /* -webkit-transform: translate(2px, 1px); Safari si Chrome*/
+    /*-o-transform: translate(2px, 1px); Opera */
+    /*-moz-transform: translate(2px, 1px); Firefox */
+    
+}
+/*CONTINUT FOOTER -CONTACT-COPYRIGHT */
+
+#footer_contact{
+	margin-top:1em;
+	width:100%;
+}
+#footer_contact h1{
+	position:relative;
+	display:inline-block;
+	float:left;
+	color: #47082C;
+	font-size:1rem;
+	padding:5px;
+	margin:0px;
+}
+#footer_contact a{
+	position:relative;
+	display:inline-block;
+	color: #47082C;
+	padding:5px;
+	font-size:1rem;
+	text-decoration: none;	
+}
+#footer_contact a:hover{
+	font-weight:bold;
+	text-decoration:underline;
+}
+#copyright{
+	width:100%;
+	position:relative;
+	text-align:center;
+	display:block;
+	color: #47082C;
+}
+#copyright small{
+	font-family: "Kunstler Script", cursive;
+	color: #47082C;
+	font-size:1.5rem;
+	font-weight:bold;
+}
+
+/*POZELE DIN GALERIILE RETELOR*/
+
+.poza {
+	position:relative;
+    margin: 3% 5px 5px 5px;
+	display:inline-block;
+    width: 20%;
+}
+.poza:hover{
+     transform: translate(2px, 1px);
+    /*-ms-transform: translate(2px, );   IE 9 */
+    /* -webkit-transform: translate(2px, 1px); Safari si Chrome*/
+    /*-o-transform: translate(2px, 1px); Opera */
+    /*-moz-transform: translate(2px, 1px); Firefox */
+}
+.poza img {
+    width: 100%;
+    height: auto;
+}
+
+/*POZA DIN GALERIA USTENSILELOR*/
+
+.poza_zenker {
+	position:relative;
+    margin:auto;
+    width: 60%;
+}
+.poza_zenker img {
+    width: 100%;
+    height: auto;
+    position:relative;
+    margin:auto;
+}
+
+/*VIDEO PAGINI*/
+
+.video{
+    position:relative;
+    margin:auto;
+    padding-top: 3%;
+    width:60%;
+    height:50%;
+}
+iframe{
+    position:relative;
+    height:25vw;
+    width:100%;
+    border:0;
+}
+
+/*CONTENT*/
+
+.recipe_title{
+    width: 100%;
+    height: auto;
+}
+.introducere b{
+    font-family: "Kunstler Script", cursive;
+	color: #47082C;
+	font-size:2rem;
+	font-weight:bold;
+    letter-spacing: 1px;
+}
+.recipe_title h2 span{
+    font-family: "Kunstler Script", cursive;
+	color: #47082C;
+	font-size:3rem;
+	font-weight:bold;
+    letter-spacing: 1px;    
+}
+p{
+    margin: 0px 0px 5px 10px;
+}
+.page_menu_p{
+    font-size: 2em;
+    margin-left:0px;
+    margin-top: 3%;
+    font-weight: bold;
+}
+.article{
+    margin-top: 10%;
+}
+.recipe_title{
+    margin-top: 5%;
+}
+.article p a:hover{
+    font-weight: bold;
+}
+.article ul{
+    list-style-type: disc;
+    text-decoration: none;
+    margin-bottom: 0px;
+}
+.article ul li a:hover{
+    font-weight: bold;
+    
+}
+.page_menu_blog_p{
+        margin-top: 3%;
+        font-size:2em;
+        font-weight: bold;
+    }
+
+/*	RESPONSIVE	*/
+
+@media screen and (min-width:1px) and (max-width:700px){
+    main{
+        width:90%;
+       /* padding-top: 50%; */
+    }
+    header{
+        width:91%;
+        /* margin-left:4.5%; */
+    }
+    footer{
+        width:90%;
+    }
+    .button{
+        display: none;
+    }
+    .menu_bar li {
+        float: none;
+        width:100%;
+        border-bottom: 1px solid seashell;
+	}
+    .menu_bar li a{
+        font-size: 2rem;
+        height:2.2rem;
+        font-weight: bold;
+        letter-spacing: 2.5px;
+     }
+    .menu_bar li a:hover{
+        font-size:2rem;
+    }
+    #footer_menu li {
+        float: left;
+        width:49.5%;
+        border-bottom: 1px solid seashell;
+        }
+    
+    .menu_bar ul .dropdown:hover .dropdown-content{
+        margin-left: 40.98%;
+        width:50%;
+    }
+    
+    .page_menu_blog .blog{
+        position:relative;
+        display:block;
+        margin:auto;
+        width: 70%;
+        padding-bottom: 5px;
+    }
+    .recipe_title h2 span{
+	   font-size:1.5rem;
+    }
+    .recipe_title h1{
+        font-size:1em;    
+    }
+    section h2{
+        font-size:1em;
+    }
+    .page_menu_p{
+        font-size: 1.3em;
+    }
+    .page_menu_blog_p{
+        font-size: 1.3em;
+    }
+    article h2{
+        font-size: 1em;
+    }
+}
+
+@media screen and (min-width:701px) and (max-width:1300px){
+    /* main{
+        padding-top: 33%;
+    }
+    */
+    main{
+        width:82%;
+       /* padding-top: 50%; */
+    }
+    header{
+        width:83%;
+        /* margin-left:4.5%; */
+    }
+    footer{
+        width:82%;
+    }
+    .menu_bar li {
+        float: left;
+        width:49.8%;
+        border-bottom: 1px solid seashell;
+        }
+    #footer_menu li {
+        float: left;
+        width:33.1%;
+        border-bottom: 1px solid seashell;
+        }
+    .menu_bar ul .dropdown:hover .dropdown-content{
+        width:41.4%;/* 49.8%; + 5.5% */
+    }
+    .recipe_title h2 span{
+	   font-size:2rem;
+    }
+    .recipe_title h1{
+        font-size:1.3em;    
+    }
+    section h2{
+        font-size:1.3em;
+    }
+    .page_menu_p{
+        font-size: 1.6em;
+    }
+    .page_menu_blog_p{
+        font-size:1.6em;
+    }
+    article h2{
+        font-size: 1.3em;
+    }
+    .button{
+        height: 2.5rem;
+    }
+    .button a{
+        font-size: 2rem;
+        letter-spacing: 0.5px;
+    }
+}
